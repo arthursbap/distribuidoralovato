@@ -9,12 +9,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #32CD32;
         }
 
         header {
             background-color: #333;
-            color: #fff;
+            color: #8B0000;
             text-align: center;
             padding: 1em 0;
         }
@@ -48,6 +48,7 @@
         <h2>Bem-vindo à Lovato Distribuidora</h2>
         <p>Sua parceira confiável em distribuição de produtos de alta qualidade.</p>
         <p>Explore nossa variedade de produtos e descubra como podemos atender às suas necessidades.</p>
+        <p>Nosso site está em desenvolvimento, contate-nos no whatsapp: número do whats.</p>
     </section>
 
     <footer>
