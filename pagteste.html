@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuidora - Entre em Contato</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #cc0000; /* vermelho */
+            color: #fff; /* branco */
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            background-color: #00cc00; /* verde */
+            color: #fff; /* branco */
+            padding: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #cc0000; /* vermelho */
+            color: #fff; /* branco */
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Distribuidora</h1>
+    </header>
+
+    <section>
+        <h2>Entre em Contato</h2>
+
+        <!-- Sessão de Contato -->
+        <div>
+            <p>Email de Contato: <span id="emailContato">seuemail@distribuidora.com</span></p>
+            <p>WhatsApp: <span id="whatsappContato">(99) 99999-9999</span></p>
+        </div>
+
+        <!-- Formulário de Contato -->
+        <form id="formularioContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+</body>
+</html>
