@@ -3,58 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lovato Distribuidora</title>
+    <title>Distribuidora - Entre em Contato</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #32CD32;
+            font-family: Arial, sans-serif;
         }
 
         header {
-             font-size:38px;
-            background-color: #8B0000;
-            color: #fff;
+		margin: 0;
+            background-color: #B22222; /* vermelho */
+            color: #fff; /* branco */
             text-align: center;
             padding: 1em 0;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 200px auto;
-            padding: 20px;
-            background-color: #32CD32;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         footer {
-            background-color: #8B0000;
+            background-color: #B22222;
             color: #fff;
             text-align: center;
-            padding: 1em 0;
-            position: fixed;
             bottom: 0;
             width: 100%;
+            padding: 1em 0;
         }
+        
+        section {
+            background-color: #006400; /* verde */
+            color: #fff; /* branco */
+            text-align: center;
+            padding: 20px;
+        }
+
+        form {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: transparent; /* vermelho */
+            color: #fff; /* branco */
+            padding: 20px 10px;
+            border: 5px;
+            cursor: pointer;
+        }
+
     </style>
 </head>
 <body>
 
-
-
     <header>
-        <h1></h1>Distribuidora Lovato</h1>
+        <h1>Distribuidora Lovato</h1>
     </header>
+    
+    
+	<section>
+	<h3><a href='https://arthursbap.github.io/distribuidoralovato/quemsomos.html'><button>Home</button>  <button>Loja Virtual</button>  <button>Quem somos</button></h3>
+	</section>
+    <section>
+        <h3>Nosso site está em desenvolvimento</h3>
+        <h2>Entre em Contato conosco</h2>
+        
+        <!-- Sessão de Contato -->
+        <div>
+            <p>Email de Contato: <span id="emailContato">comercial@distribuidoralovato.com.br</span></p>
+            <p>WhatsApp: <span id="whatsappContato">(99) 99999-9999</span></p>
+        </div>
 
-        <h2>Bem-vindo à Distribuidora Lovato</h2>
-        <p>Sua parceira confiável em distribuição de produtos de alta qualidade.</p>
-        <p>Explore nossa variedade de produtos e descubra como podemos atender às suas necessidades.</p>
-        <p>Nosso site está em desenvolvimento, contate-nos no whatsapp: número do whats.</p>
+        <!-- Formulário de Contato -->
+        <form id="formularioContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
 
-    <footer>
-        <p>&copy; 2023  Distribuidora Lovato. Todos os direitos reservados.</p>
-    </footer>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+ 
 </body>
+    <footer>
+        <p>&copy; 2023 Lovato Distribuidora. Todos os direitos reservados.</p>
+    </footer>       
 </html>
