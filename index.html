@@ -3,104 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Distribuidora - Entre em Contato</title>
+    <title>Página com Duas Imagens</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
-		background: "AeRc-419.jpg";
+            font-family: 'Arial', sans-serif;
+            color: white;
+            background-color: black;
+
         }
 
-        header {
-		margin: 0;
-            background-color: #FF6347; /* vermelho */
-            color: #fff; /* branco */
+        .image-container {
             text-align: center;
-            padding: 1em 0;
+            margin-top: 00px;
         }
 
+        img {
+            width: 100%; /* Ajusta a largura da imagem para 100% do contêiner */
+            height: auto; /* Mantém a proporção original da imagem */
+            display: block; /* Remove espaçamento extra em torno da imagem */
+            margin-bottom: 0px; /* Espaçamento entre as imagens */
+        }
         footer {
-            background-color: #FF6347;
+            background-color: #FF0000;
             color: #fff;
             text-align: center;
             bottom: 0;
             width: 100%;
             padding: 1em 0;
         }
-        
-        section {
-            background: "AeRc-419.jpg";
-            color: #fff; /* branco */
-            text-align: center;
-            padding: 20px;
-        }
-
-        form {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-        }
-
-        input,
-        textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-        }
-
-        button {
-            background-color: transparent; /* vermelho */
-            color: #fff; /* branco */
-            padding: 20px 10px;
-            border: 5px;
-            cursor: pointer;
-        }
-
     </style>
 </head>
 <body>
-
-    <header>
-        <h1>Distribuidora Lovato</h1>
-    </header>
-    
-    
-	<section>
-	<h3><button>Home</button>  <button>Loja Virtual</button>  <a href='https://arthursbap.github.io/distribuidoralovato/quemsomos.html'><button>Quem somos</button></a></h3>
-	</section>
-    <section>
-        <h3>Nosso site está em desenvolvimento</h3>
-        <h2>Entre em Contato conosco</h2>
-        
-        <!-- Sessão de Contato -->
-        <div>
-            <p>Email de Contato: <span id="emailContato">comercial@distribuidoralovato.com.br</span></p>
-            <p>WhatsApp: <span id="whatsappContato">(99) 99999-9999</span></p>
-        </div>
-
-        <!-- Formulário de Contato -->
-        <form id="formularioContato">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
-
-            <button type="submit">Enviar Mensagem</button>
-        </form>
-    </section>
- 
+    <div class="image-container">
+        <img src="logoLovato2.jpeg" alt="Primeira Imagem">
+        <h1><a href="https://wa.me/message/URP4DTDMX3XWB1">Fale conosco</a></h1>
+        <img src="catalogo.jpeg" alt="Segunda Imagem">
+    </div>
 </body>
-    <footer>
-        <p>&copy; 2023 Lovato Distribuidora. Todos os direitos reservados.</p>
-    </footer>       
+<footer>
+   <a>Rua Alcides Maia, 20. Canoas, RS.  </a> <a href="https://wa.me/message/URP4DTDMX3XWB1">Clique aqui para falar conosco     </a><a>    24.640.685.0001-07</a>
+
+</footer>
 </html>
